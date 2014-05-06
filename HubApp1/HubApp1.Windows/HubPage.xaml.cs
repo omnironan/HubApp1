@@ -50,6 +50,8 @@ namespace HubApp1
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
 
             System.Diagnostics.Debug.WriteLine("Testing");
+
+            System.Diagnostics.Debug.WriteLine("This is a line added for the Test-Branch");
         }
 
         /// <summary>
