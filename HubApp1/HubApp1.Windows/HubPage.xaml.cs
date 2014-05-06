@@ -48,6 +48,8 @@ namespace HubApp1
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
+
+            System.Diagnostics.Debug.WriteLine("Testing");
         }
 
         /// <summary>
